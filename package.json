@@ -1,0 +1,17 @@
+{
+  "name": "amazon-cypress-qa",
+  "version": "1.0.0",
+  "description": "QA Automation assignment - Cypress E2E tests for amazon.com",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "test:headed": "cypress run --browser chrome --headed",
+    "test:task2": "cypress run --browser chrome --spec cypress/e2e/task2-customer-service.cy.js",
+    "test:task3": "cypress run --browser chrome --spec cypress/e2e/task3-cart-free-shipping.cy.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^16.2.1"
+  }
+}

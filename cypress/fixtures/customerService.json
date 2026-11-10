@@ -1,0 +1,8 @@
+{
+  "mainMenuItems": ["Today's Deals", "Customer Service", "Registry", "Gift Cards", "Sell"],
+  "searchTerm": "where is my stuff",
+  "expectedArticle": {
+    "title": "Where's My Stuff?",
+    "breadcrumb": "Shipping and Delivery"
+  }
+}
